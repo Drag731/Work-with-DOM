@@ -1,0 +1,21 @@
+li.outerLi>span {
+	cursor: pointer;
+}
+
+li.outerLi>span.empty {
+	background: green;
+	cursor: default;
+}
+
+.subMenu {
+	display: none;
+}
+
+ul.menu-on {
+	display: block;
+}
+
+span.menu-on + ul {
+	display: block;
+}
+

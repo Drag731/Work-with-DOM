@@ -1,0 +1,19 @@
+.table, .table2 {
+	border: 1px solid black;
+}
+
+.table {
+	margin-bottom: 20px;
+}
+
+tr:first-child td:first-child {
+	border: none;
+}
+
+td {
+	border: 1px solid black;
+}
+
+.th {
+	background: yellow;
+}
